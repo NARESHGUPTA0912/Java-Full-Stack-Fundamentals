@@ -1,7 +1,7 @@
 package fileHandling;
 
 import java.io.File;
-import java.io.FileReader;
+import java.io.FileNotFoundException;
 import java.util.*;
 
 public class Program7 {
@@ -16,7 +16,7 @@ public class Program7 {
 			
 			System.out.println("File Reading is Completed!");
 			sc.close();
-		}catch(Exception e) {
+		}catch(FileNotFoundException e) {
 			System.out.println("File NOT Found!");
 		}
 		System.out.println("Program Ends!");

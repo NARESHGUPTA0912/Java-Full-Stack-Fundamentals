@@ -2,6 +2,7 @@ package fileHandling;
 
 import java.io.File;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class Program6 {
 	public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class Program6 {
 			x=fr.read();
 			}
 			System.out.println("\nFile Reading is Completed!");
-		}catch(Exception e) {
+		}catch(IOException e) {
 			System.out.println("File NOT Found!");
 		}
 		System.out.println("Program Ends!");
