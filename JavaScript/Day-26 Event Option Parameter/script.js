@@ -2,7 +2,7 @@ const button = document.querySelector("button");
 
 button.addEventListener(
   "click",
-  () => {
+  (e) => {
     e.preventDefault();
     console.log("clicked");
     const h1 = document.querySelector("h1");
