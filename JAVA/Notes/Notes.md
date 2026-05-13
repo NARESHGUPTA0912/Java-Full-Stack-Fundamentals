@@ -247,7 +247,6 @@ Note: null hashcode always generated as 0 in Hashtable.
 
 
 <!-- // 28/2/26 -->
-
 # Loops on Collection Hierarchy:
 1) for loop // limited use
 2) for each loop // limited use
@@ -450,7 +449,6 @@ Note: echo.> (cmd)
 5) clone()
 6) finalize()
 
-
 - These five methods are used in multithreadded programming for Inter-Thread communication.
 7) notify()
 8) notifyAll()
@@ -481,7 +479,6 @@ Advantages:
 - command to run : java com.wipro.icici.loan.homeLoan.ROI
 
 # Access modifiers: They are used to control or restrict the acccess of difefrent types of mathos. in java ther  \ ere 
-
 
 <!-- ----- 21 Jan ----- -->
 # MultiThreading : 

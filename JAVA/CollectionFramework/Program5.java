@@ -17,6 +17,7 @@ public class Program5 {
         System.out.println(pq.remove());
         System.out.println(pq.remove());
         System.out.println(pq.remove());
-
+        System.out.println(pq.containsAll(pq));
+        // ArrayDeque<Integer> ad = new ArrayDeque<>(); 
     }
 }

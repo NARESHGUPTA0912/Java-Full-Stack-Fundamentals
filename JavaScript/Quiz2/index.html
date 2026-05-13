@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Master</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<!-- Welcome Popup -->
+<div id="welcomePopup" class="popup">
+    <h2>Welcome to the Quiz Master</h2>
+
+    <label for="playerName">Enter your name:</label>
+    <input type="text" id="playerName" style="
+        width: 95%;
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 8px;
+        border: 2px solid #d5ddff;
+        font-size: 16px;">
+    
+    <br>
+    <button onclick="saveName()">Save</button>
+</div>
+
+<!-- Difficulty Popup -->
+<div id="difficultyPopup" class="popup hidden">
+    <h2>Select your difficulty level</h2>
+
+    <button onclick="startQuiz('easy')">Easy (10 questions, no timer)</button>
+    <button onclick="startQuiz('medium')">Medium (15 questions, 60s/question)</button>
+    <button onclick="startQuiz('hard')">Hard (25 questions, 30s/question)</button>
+</div>
+
+<!-- Quiz Screen -->
+<div id="quizScreen" class="hidden">
+    <h1 style="text-align:center; color:#2c52d8;">Quiz Master</h1>
+
+    <p id="time" style="font-size:18px; font-weight:bold;"></p>
+    <p id="score" style="font-size:18px; font-weight:bold;"></p>
+
+    <h2 id="questionText" style="margin-top:20px;"></h2>
+
+    <div id="options"></div>
+
+    <button id="nextBtn" onclick="nextQuestion()" disabled>Next</button>
+</div>
+
+<!-- Scoreboard Popup -->
+<div id="scorePopup" class="popup hidden">
+    <h2>Score Board</h2>
+
+    <p id="finalName" style="font-size:18px; font-weight:bold;"></p>
+    <p id="finalScore" style="font-size:18px; font-weight:bold;"></p>
+    <p id="finalRating" style="font-size:18px; font-weight:bold;"></p>
+
+    <button onclick="playAgain()">Play Again</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

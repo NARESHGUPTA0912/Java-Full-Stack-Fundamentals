@@ -12,6 +12,11 @@
 -> In other words, its a mechanism to show what it does to user but to hide how it does from user.
 -> it is achieved in two ways: 1) By using Abstract class (To achieve 0-100% abstraction).
                                 2) By using interface(To achieve 100%  Abstraction).
-
-
-                                
+             
+IOT Important diagrams
+1) arch. of iot
+2) rfid
+3) arch. of ardino
+4) arch. of smart city using iot
+5) ardino, raspberrypi, beeglebee (difference)
+6) ardino board 
