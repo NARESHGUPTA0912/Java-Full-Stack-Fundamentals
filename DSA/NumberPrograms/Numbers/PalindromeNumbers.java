@@ -1,3 +1,5 @@
+package Numbers;
+
 // A palindrome number is a number that remains the same when its digits are reversed. 
 // For example, 121 and 12321 are palindrome numbers, while 123 and 10 are not.
 

@@ -1,3 +1,5 @@
+package Numbers;
+
 /**
  A number is Happy if:
 👉 Repeatedly replace the number by sum of squares of its digits

@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
  A number is Strong if:
 👉 Sum of factorial of each digit = original number

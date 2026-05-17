@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 A number is Armstrong if:
 👉 Sum of digits each raised to power of number of digits = original number
@@ -6,6 +8,8 @@ Example:
 153 = 1³ + 5³ + 3³ = 153 ✔
 9474 = 9⁴ + 4⁴ + 7⁴ + 4⁴ ✔
 */
+
+class ArmstrongNumber {
 
     // Helper: count digits
     public static int countDigits(int n) {

@@ -1,3 +1,5 @@
+package Numbers;
+
 // Prime numbers are natural numbers greater than 1 that have no positive divisors other than 1 and themselves.
 // For example, the first few prime numbers are 2, 3, 5, 7, 11, 13, 17, 19, 23, and so on.
 public class PrimeNumber {

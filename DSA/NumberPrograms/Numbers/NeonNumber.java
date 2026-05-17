@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 A number is Neon if:
 👉 Sum of digits of its square = original number

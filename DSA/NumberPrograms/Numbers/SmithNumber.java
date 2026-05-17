@@ -1,3 +1,5 @@
+package Numbers;
+
 /**
    A Smith number is a composite number whose:
 👉 Sum of digits = Sum of digits of its prime factors (with repetition)

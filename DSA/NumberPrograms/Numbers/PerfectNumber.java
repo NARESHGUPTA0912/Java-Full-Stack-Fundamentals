@@ -1,3 +1,5 @@
+package Numbers;
+
 // Perfect numbers are positive integers that are equal to the sum of their proper divisors (excluding themselves).
 // For example, the first few perfect numbers are 6(1+2+3), 28(1+2+4+7+14), 496(1+2+4+8+16+31+62+124+248),
 public class PerfectNumber {

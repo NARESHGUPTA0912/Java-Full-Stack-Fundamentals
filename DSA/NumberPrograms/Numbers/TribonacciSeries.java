@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 Tribonacci Series is like Fibonacci, but:
 👉 Sum of previous 3 terms

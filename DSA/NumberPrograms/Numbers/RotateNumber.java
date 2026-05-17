@@ -1,3 +1,5 @@
+package Numbers;
+
 // leetcode 788. Rotated Digits
 
 class RotateNumber {

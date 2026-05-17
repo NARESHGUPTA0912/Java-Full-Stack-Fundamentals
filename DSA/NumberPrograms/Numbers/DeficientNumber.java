@@ -1,3 +1,5 @@
+package Numbers;
+
 /*A number is Deficient if:
 👉 Sum of proper divisors < number
 

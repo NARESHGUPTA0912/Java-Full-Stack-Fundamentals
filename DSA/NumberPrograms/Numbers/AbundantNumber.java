@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 A number is Abundant if:
 👉 Sum of proper divisors > number

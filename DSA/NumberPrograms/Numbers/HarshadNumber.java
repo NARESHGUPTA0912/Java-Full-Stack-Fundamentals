@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 A number is Harshad (Niven) number if:
 👉 Number is divisible by sum of its digits

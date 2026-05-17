@@ -1,3 +1,5 @@
+package Numbers;
+
 /*
 A number is Automorphic if:
 👉 The square of the number ends with the number itself

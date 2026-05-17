@@ -1,3 +1,5 @@
+package Numbers;
+
 /* A number is Disarium if:
 👉 Sum of digits powered by their position (starting from 1) = original number
 
