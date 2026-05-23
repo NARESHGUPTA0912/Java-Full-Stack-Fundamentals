@@ -1,4 +1,4 @@
-package String;
+package String.P25_To_P44;
 
 public class CountWords {
     // first way
@@ -14,7 +14,7 @@ public class CountWords {
     }
 
     public static void main(String[] args) {
-        String s = "One two three    four    five";
+        String s = "    One two three    four    five    ";
         System.out.println("Total Words Count: " + getWordCount(s));
         // second way
         int count  = s.trim().split("\s+").length;
