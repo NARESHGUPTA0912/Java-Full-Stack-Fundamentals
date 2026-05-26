@@ -89,6 +89,13 @@ _throws Keyword / Exception Declaration:_ It is a keyword which is used to decla
 - An Exception created by user is called Custom Exception. 
 - If Custom Exception is craeted using RuntimeException then it will for Unchecked Exception otherwise if it is formed using Exception then it will for checked exception.
 
+# Steps to create custom exception
+1) Create a class for Custom Exception. To make it Checked Exception extended by Exception(C), otherwise to make it unchecked eception extended by RuntimeException(C).
+2) Now Create the object of Exception and throw it by using throw keyword which will create Custom Exception.
+3) If its is a checked exception then declare it by using throws keyword and it should be handled by using try catch block at the time method call. 
+
+Q) Can we rethrow an exception ?
+- yes, we can rethrow an exception and this process is called Exception Propagation.
 # try-with-resources:
 - we can use multiple resource inside try-with-resource by using `;` .
 **
@@ -103,25 +110,6 @@ omnitools, indus by sarvam, google ai edge gallery, comet ai browser, ulaa brows
 4) Codex
 5) Cursor
 6) lively wallpaper
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

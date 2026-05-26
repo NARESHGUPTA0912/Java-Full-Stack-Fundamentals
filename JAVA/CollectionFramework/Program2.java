@@ -15,5 +15,6 @@ class Program2{
         student.add(1242);
         System.out.println(student.indexOf(1121));
         
+        Map<Integer,String> m = new HashMap<>();
     }
 }

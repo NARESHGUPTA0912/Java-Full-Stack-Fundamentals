@@ -281,7 +281,7 @@ ex->
 _Limitation_      :      we can only use for loop for access, update, remove element from List. It is not works on Set.
 
 2) for each loop: It internally uses a _cursor_ which does not allow any modification in the structure of Collection. 
-        -> If operation such as add(), remove() is applied inside for Each loop then immediately it stops the execution and throws ConccurentModificationsException.  
+        -> If operation such as add(), remove() is applied inside for Each loop then immediately it stops the execution and throws ConccurentModificationException.  
         -> It internally uses _modCount_ to detect any structural changes.
       syntax: for(dataType varName: Collection/Array reference){
             // code
