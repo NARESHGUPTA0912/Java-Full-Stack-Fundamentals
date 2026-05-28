@@ -159,8 +159,7 @@ public class pattern13To32 {
         int num = 1;
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
-                System.out.printf("%d\t",num);
-                num--;
+                System.out.printf("%d\t",num--);
             } num += 2*i+1; // odd no seq start at 3
             System.out.println();
         }
@@ -170,9 +169,8 @@ public class pattern13To32 {
         int num = n*(n+1)/2;
         for(int i=1; i<=n; i++){
             for(int j=1; j<=i; j++){
-                System.out.printf("%d\t",num);
-                num++;
-            } num = num - (2*i+1); //
+                System.out.printf("%d\t",num++);
+            } num -= 2*i+1;
             System.out.println();
         }
     }
@@ -222,7 +220,6 @@ public class pattern13To32 {
             System.out.println();
         }
     }
-
 
         public static void solution29(int n){
             char ch = 'A';
@@ -281,6 +278,6 @@ public class pattern13To32 {
         }
 
     public static void main(String[] args) {
-        solution24(5);
+        solution25(5);
     }
 }

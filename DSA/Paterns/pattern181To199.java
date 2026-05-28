@@ -214,7 +214,7 @@ public class pattern181To199 {
         int mid=n/2;   int space=0;
         int star=n;
         for (int i = 1; i <= n; i++) {
-            int num=star/2 +1;
+            int num=star/2 + 1;
             for (int s = 1; s <= space; s++)
                 System.out.print("   ");
             for (int j = 1; j <= star; j++){

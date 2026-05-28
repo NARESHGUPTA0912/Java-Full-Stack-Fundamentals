@@ -1,11 +1,11 @@
 
-import java.util.Scanner;
+// import java.util.Scanner;
 class Q16{
 	public static void main(String[] args){
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter number of Rows: ");
-		int n=sc.nextInt();
-		printPattern(n);
+		// Scanner sc=new Scanner(System.in);
+		// System.out.println("Enter number of Rows: ");
+		// int n=sc.nextInt();
+		printPattern(5);
 	}
 	public static void printPattern(int n){
 		int space=0;	int star=n;

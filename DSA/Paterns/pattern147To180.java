@@ -191,7 +191,7 @@ public class pattern147To180 {
 			star+=2;		space--;
 		}else{
 			star-=2;		space++;
-		}			
+		}
 		System.out.println();
 		}
 	}
@@ -817,7 +817,6 @@ public class pattern147To180 {
         }
     }
     
-
     public static void main(String[] args) {
         pattern180(7);
     }

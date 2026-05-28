@@ -453,6 +453,6 @@ public static void diamond1(int n){
 	}
 
     public static void main(String[] args) {
-        pattern146(7);
+        pattern139(7);
     }
 }

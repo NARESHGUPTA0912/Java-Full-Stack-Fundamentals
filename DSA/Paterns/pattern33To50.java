@@ -234,9 +234,7 @@ public class pattern33To50 {
         } 
     }
     public static void pattern50(int n){
-        int total = n * (n + 1) / 2;
-        char ch = (char)(65 + total - 1);   // start from last letter
-
+        char ch = (char)(64 + n * (n + 1) / 2);   // start from last letter
         for(int i = 1; i <= n; i++){
             // leading spaces
             for(int s = 0; s < n - i; s++)
@@ -250,7 +248,7 @@ public class pattern33To50 {
     }
 
     public static void main(String[] args) {
-        pattern49(5);
+        pattern50(5);
     }
 }
 

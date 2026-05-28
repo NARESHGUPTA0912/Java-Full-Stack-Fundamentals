@@ -113,7 +113,7 @@ public class pattern94To106 {
     }
 
     public static void pattern104(int n) {
-        char alp = (char) (64+n);
+        char alp = (char) (64+((n*(n+1)/2)));
         for (int i = n; i >= 1; i--) {
             for (int s = 1; s <= n - i; s++)    // leading spaces
                 System.out.printf("    ");

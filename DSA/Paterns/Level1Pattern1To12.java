@@ -135,8 +135,13 @@ public class Level1Pattern1To12 {
             }
             System.out.println();
         }
-        for(int i=1; i<=n; i++)
-            System.out.println("**");
+        // for(int i=1; i<=n; i++)
+        //     System.out.println("**");
+        for(int i=1; i<=n; i++){
+            for (int j = 1; j <=n/5; j++) {
+                System.out.print("*");
+            }System.out.println();
+        }
     }
 
     public static void solution11(int n){
@@ -220,6 +225,6 @@ public class Level1Pattern1To12 {
     // }
 
     public static void main(String[] args) {
-        solution10(11);
+        solution10(21);
     }
 }

@@ -185,7 +185,6 @@ public class pattern67To93 {
 
     public static void pattern77(int n){
         int space = n - 1, star = 1;
-
         for(int i = 1; i <= n; i++){
             int num = n;
             int mid = (star / 2) + 1; // correct mid for each row
@@ -502,6 +501,6 @@ public class pattern67To93 {
     }
 
     public static void main(String[] args) {
-        pattern93(5);
+        pattern76_2(5);
     }
 }

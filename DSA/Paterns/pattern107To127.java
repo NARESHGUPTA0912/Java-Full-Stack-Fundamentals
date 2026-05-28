@@ -127,6 +127,20 @@ public class pattern107To127 {
         }
     }
 
+    public static void pattern115_3(int n) {
+        int star = 2 * n - 1;   // top row stars
+        int space = 0;       // start with 0 leading spaces
+        for (int i = 1; i <= n; i++) {
+            int num=star;
+            for (int s = 1; s <= space; s++)
+                System.out.print("    ");
+            for (int k = 1; k <= star; k++)
+                System.out.printf("%-4d",num--);
+            System.out.println();
+            space += 1;   star -= 2;
+        }
+    }
+
 
     /*  1 2 3 4 5 4 3 2 1
           1 2 3 4 3 2 1
@@ -159,6 +173,24 @@ public class pattern107To127 {
         }
     }
 
+    public static void pattern116_3(int n) {
+        int star = 2 * n - 1;   // top row stars
+        int space = 0;       // start with 0 leading spaces
+        for (int i = 1; i <= n; i++) {
+            int num=1, mid = (star/2)+1;
+            for (int s = 1; s <= space; s++)
+                System.out.print("    ");
+            for (int k = 1; k <= star; k++)
+                if(k<mid){
+                    System.out.printf("%-4d",num++);
+                }else{
+                    System.out.printf("%-4d",num--);
+                }
+            System.out.println();
+            space += 1;   star -= 2;
+        }
+    }
+
     public static void pattern117(int n) {
         for (int i = 1; i <= n; i++) {
             int start = i;    // row starting number
@@ -172,6 +204,24 @@ public class pattern107To127 {
             for (int j = mid - 1; j >= start; j--)    // decreasing part
                 System.out.print(j + " ");
             System.out.println();
+        }
+    }
+
+    public static void pattern117_3(int n) {
+        int star = 2 * n - 1;   // top row stars
+        int space = 0;       // start with 0 leading spaces
+        for (int i = 1; i <= n; i++) {
+            int num=1, mid = (star/2)+1;
+            for (int s = 1; s <= space; s++)
+                System.out.print("    ");
+            for (int k = 1; k <= star; k++)
+                if(k<mid){
+                    System.out.printf("%-4d",num++);
+                }else{
+                    System.out.printf("%-4d",num--);
+                }
+            System.out.println();
+            space += 1;   star -= 2;
         }
     }
 
@@ -336,6 +386,20 @@ public class pattern107To127 {
         }
     }
 
+    public static void pattern125_2(int n) {
+        int star = 2 * n - 1;   // top row stars
+        int space = 0;       // start with 0 leading spaces
+        for (int i = 1; i <= n; i++) {
+            char c = (char) (64 + star);
+            for (int s = 1; s <= space; s++)
+                System.out.print("   ");
+            for (int k = 1; k <= star; k++)
+                System.out.printf("%-3c",c--);
+            System.out.println();
+            space += 1;   star -= 2;
+        }
+    }
+
     /*
     E D C B A B C D E
       D C B A B C D
@@ -383,6 +447,6 @@ public class pattern107To127 {
 
 
     public static void main(String[] args) {
-        pattern127(5);
+        pattern125_2(5);
     }
 }
