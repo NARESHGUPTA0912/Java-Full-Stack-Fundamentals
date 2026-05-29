@@ -1,7 +1,5 @@
 package Paterns;
 
-import java.util.Scanner;
-
 public class Patterns_200_to_214 {
 
     // Common Logic
@@ -519,7 +517,7 @@ public class Patterns_200_to_214 {
 
     // ─────────────────────────────────────────────────────────────
     public static void main(String[] args) {
-        q200_2(5);
+        q200(5);
         // try (Scanner sc = new Scanner(System.in)) {
 
         //     System.out.print("Enter Odd Rows: ");
@@ -571,5 +569,4 @@ public class Patterns_200_to_214 {
 
         //     sc.close();
         }
-    }
 }
