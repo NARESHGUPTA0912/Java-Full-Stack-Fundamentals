@@ -5,7 +5,6 @@ substring - Largest Non-repeating substring, largest palindromic string
 Reverse - 1. reverse full 2. reverse each word 3. reverse substring
 
 
-
 <!-- 14/02/26 -->
 # Time & Complexity: It is the analysis for an algorithm to understand in how much time or in space the given problem will be solved.
 
@@ -45,7 +44,7 @@ Ex -> "abcd";
       - Ex -> String s = "mohan";
 
   # b) String creation by using new Keyword:
-     - When string object is created by using new Keyword then two objects are created one in SCP and One ine Heap.
+     - When string object is created by using new Keyword then two objects are created one in SCP and One in Heap.
      - In this case the String from Heap will be returned on reference.
         Ex -> String s = new String("John");
 
