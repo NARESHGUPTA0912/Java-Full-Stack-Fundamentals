@@ -1,3 +1,4 @@
+package javaBasics.oop.basic;
 class RectangleDriver{
 	public static void main(String[] args){
 		Rectangle r1=new Rectangle();
@@ -21,7 +22,7 @@ class RectangleDriver{
 		r3.printPerimeter();
 		System.out.println("===================");
 
-	}	
+	}
 }
 
 

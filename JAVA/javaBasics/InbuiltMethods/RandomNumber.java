@@ -1,4 +1,4 @@
-package InbuiltMethods;
+package javaBasics.InbuiltMethods;
 
 public class RandomNumber {
     public static void main(String[] args) {

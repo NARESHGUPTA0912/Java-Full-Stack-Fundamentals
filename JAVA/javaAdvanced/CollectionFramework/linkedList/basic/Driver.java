@@ -1,4 +1,4 @@
-package javaadvanced.CollectionFramework.linkedList.basic;
+package javaAdvanced.CollectionFramework.linkedList.basic;
 
 public class Driver {
 	public static void main(String[] args) {

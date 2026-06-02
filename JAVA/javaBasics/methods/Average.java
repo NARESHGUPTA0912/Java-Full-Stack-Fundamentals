@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 class Average{
 	public static void printAverage(double a, double b, double c){

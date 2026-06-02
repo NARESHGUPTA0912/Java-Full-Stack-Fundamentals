@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 public class Program2 {
     public static void add(double a, double b){

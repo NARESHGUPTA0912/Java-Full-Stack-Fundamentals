@@ -1,4 +1,4 @@
-package constructor.copy;
+package javaBasics.constructor.copy;
 
 class Car{
 	String name;
@@ -21,7 +21,7 @@ class Car{
 	}
 	Car(String name, double price, int hp, String color){
 		this(name, price, hp);
-		this.color=color;	
+		this.color=color;
 	}
 	//Copy Constructor
 	Car(Car p){

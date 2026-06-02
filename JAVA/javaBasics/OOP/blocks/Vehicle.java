@@ -1,4 +1,4 @@
-package OOP.blocks;
+package javaBasics.oop.blocks;
 
 class Vehicle{
 	static int x;
@@ -20,7 +20,7 @@ class Vehicle{
 	
 	static{
 		System.out.println("This is static block-2 x is: "+x);
-	}	
+	}
 }
 
 

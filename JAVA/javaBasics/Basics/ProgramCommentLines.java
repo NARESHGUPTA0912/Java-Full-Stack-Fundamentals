@@ -1,3 +1,5 @@
+package javaBasics.Basics;
+
 /** 
  * this class tells how 
  * many ways to write 

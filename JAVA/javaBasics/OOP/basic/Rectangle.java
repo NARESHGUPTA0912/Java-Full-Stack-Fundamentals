@@ -1,4 +1,5 @@
-class Rectangle{
+package javaBasics.oop.basic;
+public class Rectangle{
 	double l;
 	double w;
 
@@ -7,8 +8,5 @@ class Rectangle{
 	}
 	public void printPerimeter(){
 		System.out.println("Perimeter is: "+2*(l+w)+" Unit");
-	}	
+	}
 }
-
-
-

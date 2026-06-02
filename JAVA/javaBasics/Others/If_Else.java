@@ -1,4 +1,4 @@
-package Others;
+package javaBasics.Others;
 class If_Else
 {
 	public static void main(String[] args)

@@ -1,4 +1,4 @@
-package constructor.parameterized;
+package javaBasics.constructor.parameterized;
 
 class Car{
 	String name;

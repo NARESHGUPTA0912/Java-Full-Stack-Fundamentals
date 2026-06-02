@@ -1,3 +1,4 @@
+package javaBasics.oop.variable.local;
 class Program3{
 	public static void main(String[] args){
 		int x=90;
@@ -16,7 +17,7 @@ class Program3{
 			System.out.println("x is: "+x);
 		}
 		System.out.println("x is: "+x);
-	}	
+	}
 }
 
 

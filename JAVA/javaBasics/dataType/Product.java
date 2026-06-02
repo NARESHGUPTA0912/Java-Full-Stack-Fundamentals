@@ -1,4 +1,4 @@
-package dataType;
+package javaBasics.dataType;
 
 public class Product {
     String name;

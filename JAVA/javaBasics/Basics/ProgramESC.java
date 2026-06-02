@@ -1,4 +1,4 @@
-package Basics;
+package javaBasics.Basics;
 
 public class ProgramESC {
     public static void main(String[] args) {

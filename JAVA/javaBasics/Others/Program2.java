@@ -1,4 +1,4 @@
-package Others;
+package javaBasics.Others;
 
 import java.util.ArrayList;
 import java.util.List;

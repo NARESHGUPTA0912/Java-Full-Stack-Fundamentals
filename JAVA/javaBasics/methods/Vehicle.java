@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 class Vehicle{
 	public static void start(){

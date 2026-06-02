@@ -1,4 +1,4 @@
-package constructor.chaining;
+package javaBasics.constructor.chaining;
 
 class Car{
 	String name;
@@ -21,7 +21,7 @@ class Car{
 	}
 	Car(String name, double price, int hp, String color){
 		this(name, price, hp);
-		this.color=color;	
+		this.color=color;
 	}
 	public String getDetails(){
 	return "Name: "+name+"\tPrice: "+price+"\tHP: "+hp+"\tColor: "+color;

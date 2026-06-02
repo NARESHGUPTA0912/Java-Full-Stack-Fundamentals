@@ -1,4 +1,4 @@
-package Others;
+package javaBasics.Others;
 
 class Vehicle {
 

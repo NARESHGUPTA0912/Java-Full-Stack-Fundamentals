@@ -1,6 +1,4 @@
-package methods.static_non_static;
-
-package methods.
+package javaBasics.methods.static_non_static;
 
 class VehicleDriver{
 	public static void main(String[] args){

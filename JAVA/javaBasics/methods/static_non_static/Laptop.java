@@ -1,4 +1,4 @@
-package methods.static_non_static;
+package javaBasics.methods.static_non_static;
 
 class Laptop{
 	String name;	

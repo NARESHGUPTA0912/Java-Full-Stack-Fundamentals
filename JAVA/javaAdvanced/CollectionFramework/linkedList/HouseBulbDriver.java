@@ -1,4 +1,4 @@
-package javaadvanced.CollectionFramework.linkedList;
+package javaAdvanced.CollectionFramework.linkedList;
 
 public class HouseBulbDriver {
 	public static void main(String[] args) {

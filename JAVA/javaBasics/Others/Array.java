@@ -1,4 +1,4 @@
-package Others;
+package javaBasics.Others;
 public class Array{
 
     public static void main(String[] args){

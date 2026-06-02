@@ -1,4 +1,4 @@
-package javaadvanced.CollectionFramework.linkedList;
+package javaAdvanced.CollectionFramework.linkedList;
 
 public class Bulb {
 	String color;

@@ -1,3 +1,4 @@
+package javaBasics.oop.blocks;
 class VehicleDriver3{
 
 	public static void main(String[] args){
@@ -11,8 +12,6 @@ class VehicleDriver3{
 		Vehicle v3=new Vehicle();
 		System.out.println("============*****************========");
 
-
-					
 	}
 	
 }

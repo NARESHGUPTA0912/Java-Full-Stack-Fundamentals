@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 class Rectangle{
 	

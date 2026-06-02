@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 public class Program5 {
 	public static void mohan(){	

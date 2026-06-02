@@ -1,4 +1,4 @@
-package Basics;
+package javaBasics.Basics;
 
 public class ProgramChar {
     public static void main(String[] args) {

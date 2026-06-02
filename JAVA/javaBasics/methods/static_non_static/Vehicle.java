@@ -1,8 +1,8 @@
-package methods.static_non_static;
+package javaBasics.methods.static_non_static;
 
 public class Vehicle{
 	static String brand;
-	String model;	
+	String model;
 
 	public static void test(){
 		System.out.println("Brand is: "+brand);

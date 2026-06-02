@@ -1,4 +1,4 @@
-package dataType;
+package javaBasics.dataType;
 
 public class ProductDriver {
     public static void main(String[] args){

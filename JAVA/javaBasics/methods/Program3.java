@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 class Program3{
 	public static void test(){	

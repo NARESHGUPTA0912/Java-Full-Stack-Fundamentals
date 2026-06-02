@@ -1,4 +1,4 @@
-package Others;
+package javaBasics.Others;
 class Fruit {
     static int b = 20;
 }

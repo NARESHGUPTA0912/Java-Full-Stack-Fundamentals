@@ -1,3 +1,4 @@
+package javaBasics.oop.blocks;
 class VehicleDriver1{
 
 	public static void main(String[] args){
@@ -6,11 +7,6 @@ class VehicleDriver1{
 		System.out.println("============*****************========");
 		System.out.println("x from main is: "+Vehicle.x);
 		System.out.println("============*****************========");
-		System.out.println("x from main is: "+Vehicle.x);
-		System.out.println("============*****************========");
-
-
-					
 	}
 	
 }

@@ -1,4 +1,4 @@
-package methods;
+package javaBasics.methods;
 
 public class Program1 {
     public static void prince() {
