@@ -1,4 +1,4 @@
-package Shapes;
+package javaBasics.Shapes;
 
 class Sphere{
     double radius;

@@ -1,4 +1,4 @@
-package abstraction.interfacePrograms;
+package javaOops.abstraction.interfacePrograms;
 
 public class Circle implements TwoDShape{
 

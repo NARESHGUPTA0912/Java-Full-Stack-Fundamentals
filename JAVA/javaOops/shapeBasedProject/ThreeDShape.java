@@ -1,4 +1,4 @@
-package polymorphism.shapeBasedProject;
+package javaOops.shapeBasedProject;
 
 public interface ThreeDShape extends Shape {
     double getVolume();

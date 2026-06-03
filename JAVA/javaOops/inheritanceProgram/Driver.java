@@ -1,4 +1,4 @@
-package inheritanceProgram;
+package javaOops.inheritanceProgram;
 
 public class Driver {
 	public static void main(String[] args) {

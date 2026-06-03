@@ -1,4 +1,4 @@
-package upcastingDowncasting.useCase;
+package javaOops.upcastingDowncasting.useCase;
 
 public class Driver {
 	public static void main(String[] args) {
@@ -30,6 +30,4 @@ public class Driver {
 		Service.fillFuel(b);
 	
 	}
-	
-
 }

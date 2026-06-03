@@ -1,4 +1,4 @@
-package hasARelationship;
+package javaOops.hasARelationship;
 
 public class CNGEngine extends Engine {
 	// CNGEngine properties

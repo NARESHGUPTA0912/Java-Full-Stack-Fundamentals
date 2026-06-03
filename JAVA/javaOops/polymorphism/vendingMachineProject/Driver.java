@@ -1,9 +1,9 @@
-package polymorphism.vendingMachineProject;
+package javaOops.polymorphism.vendingMachineProject;
 
 public class Driver {
     
     public static void main(String[] args) {
-        do { 
+        do {
             Beverages beverage = VendingMachine.pressButtonAndGetBeverage();
             beverage.drink();
         } while (VendingMachine.doYouWantToContinue());

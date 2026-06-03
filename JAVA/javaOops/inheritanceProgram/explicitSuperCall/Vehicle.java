@@ -1,4 +1,4 @@
-package inheritanceProgram.explicitSuperCall;
+package javaOops.inheritanceProgram.explicitSuperCall;
 
 public class Vehicle {
 	String name;

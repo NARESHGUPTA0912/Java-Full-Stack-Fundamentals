@@ -1,4 +1,4 @@
-package inheritanceProgram;
+package javaOops.inheritanceProgram;
 
 public class Car extends Vehicle{
 	int hp;

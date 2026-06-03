@@ -1,4 +1,4 @@
-package polymorphism.vehicleProject;
+package javaOops.polymorphism.vehicleProject;
 
 public class AppLauncher {
     public static void main(String[] args) {

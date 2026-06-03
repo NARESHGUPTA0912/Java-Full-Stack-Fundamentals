@@ -1,4 +1,4 @@
-package methodChaining;
+package javaOops.methodChaining;
 
 public class Bike implements Vehicle{
     @Override

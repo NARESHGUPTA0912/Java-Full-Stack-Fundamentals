@@ -1,4 +1,4 @@
-package inheritanceProgram.variableHiding;
+package javaOops.inheritanceProgram.variableHiding;
 
 public class Driver {
 	public static void main(String[] args) {

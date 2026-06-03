@@ -1,4 +1,4 @@
-package upcastingDowncasting.useCase;
+package javaOops.upcastingDowncasting.useCase;
 
 public class Shirt {
 	

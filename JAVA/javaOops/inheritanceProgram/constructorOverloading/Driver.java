@@ -1,4 +1,4 @@
-package inheritanceProgram.constructorOverloading;
+package javaOops.inheritanceProgram.constructorOverloading;
 
 public class Driver {
 	public static void main(String[] args) {

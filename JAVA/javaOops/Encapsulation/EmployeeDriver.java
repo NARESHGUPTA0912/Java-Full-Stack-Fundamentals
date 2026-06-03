@@ -1,4 +1,4 @@
-package Encapsulation;
+package javaOops.Encapsulation;
 
 public class EmployeeDriver {
     public static void main(String[] args) {

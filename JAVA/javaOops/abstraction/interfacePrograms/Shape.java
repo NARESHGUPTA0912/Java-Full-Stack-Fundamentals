@@ -1,4 +1,4 @@
-package abstraction.interfacePrograms;
+package javaOops.abstraction.interfacePrograms;
 
 public interface Shape {
     void rotate();

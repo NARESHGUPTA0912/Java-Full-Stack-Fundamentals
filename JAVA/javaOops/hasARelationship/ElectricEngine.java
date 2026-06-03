@@ -1,4 +1,4 @@
-package hasARelationship;
+package javaOops.hasARelationship;
 
 public class ElectricEngine extends Engine {
 	// ElectricEngine properties

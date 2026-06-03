@@ -1,4 +1,4 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
 /**
  * Smooth Spinning 3D Wireframe Pyramid — Java Terminal Animation

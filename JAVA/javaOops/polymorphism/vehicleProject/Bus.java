@@ -1,4 +1,4 @@
-package polymorphism.vehicleProject;
+package javaOops.polymorphism.vehicleProject;
 
 class Bus extends Vehicle {
 

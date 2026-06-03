@@ -1,4 +1,4 @@
-package Encapsulation;
+package javaOops.Encapsulation;
 
 class EmployeeDetails {
     private int age;

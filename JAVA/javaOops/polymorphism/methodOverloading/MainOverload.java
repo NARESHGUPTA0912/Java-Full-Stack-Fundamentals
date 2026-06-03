@@ -1,4 +1,4 @@
-package ploymorphism.methodOverloading;
+package javaOops.polymorphism.methodOverloading;
 
 public class MainOverload {
 	public static void main(int args) {

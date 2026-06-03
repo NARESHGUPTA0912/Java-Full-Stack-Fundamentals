@@ -1,4 +1,4 @@
-package polymorphism.vehicleProject;
+package javaOops.polymorphism.vehicleProject;
 
 // Parent class
 class Vehicle {

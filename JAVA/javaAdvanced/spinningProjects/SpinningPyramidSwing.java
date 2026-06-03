@@ -1,9 +1,9 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.*;
 
 public class SpinningPyramidSwing extends JPanel implements ActionListener {
 

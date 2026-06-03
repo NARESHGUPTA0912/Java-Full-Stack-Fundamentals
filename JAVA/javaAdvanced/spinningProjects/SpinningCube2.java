@@ -1,4 +1,4 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
 /**
  * Clean Spinning 3D Wireframe Cube — Java Terminal Animation

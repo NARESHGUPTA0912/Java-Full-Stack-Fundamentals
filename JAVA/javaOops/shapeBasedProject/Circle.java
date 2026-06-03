@@ -1,4 +1,4 @@
-package polymorphism.shapeBasedProject;
+package javaOops.shapeBasedProject;
 
 public class Circle implements TwoDShape {
     private double radius;

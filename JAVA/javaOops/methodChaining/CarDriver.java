@@ -1,4 +1,4 @@
-package methodChaining;
+package javaOops.methodChaining;
 
 public class CarDriver {
     public static void main(String[] args) {

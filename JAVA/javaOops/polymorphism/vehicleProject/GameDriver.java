@@ -1,4 +1,4 @@
-package polymorphism.vehicleProject;
+package javaOops.polymorphism.vehicleProject;
 
 import java.util.Scanner;
 

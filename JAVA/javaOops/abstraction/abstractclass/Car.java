@@ -1,4 +1,4 @@
-package abstraction.abstractclass;
+package javaOops.abstraction.abstractclass;
 
 public abstract class Car extends Vehicle{
 	int hp;

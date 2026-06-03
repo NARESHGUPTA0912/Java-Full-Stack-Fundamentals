@@ -1,7 +1,7 @@
-package spinningProjects;
-import javax.swing.*;
+package javaAdvanced.spinningProjects;
 import java.awt.*;
 import java.util.Arrays;
+import javax.swing.*;
 
 /**
  * 3D Spinning Shapes Animation — Donut | Pyramid | Cube

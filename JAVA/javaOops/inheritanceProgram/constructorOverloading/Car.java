@@ -1,4 +1,4 @@
-package inheritanceProgram.constructorOverloading;
+package javaOops.inheritanceProgram.constructorOverloading;
 
 public class Car {
 	String name;
@@ -21,5 +21,4 @@ public class Car {
 		this.hp = hp;
 		this.price = price;
 	}
-
 }

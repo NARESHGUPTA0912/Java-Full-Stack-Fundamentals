@@ -1,4 +1,4 @@
-package methodChaining;
+package javaOops.methodChaining;
 
 public class LaptopDriver {
     public static void main(String[] args) {
@@ -14,6 +14,8 @@ public class LaptopDriver {
 		System.out.println(lp2);
 		System.out.println(l);
 		System.out.println("--------------");
+		// Laptop l6 = 
 		lp3.getRam().getBrand();
+		// System.out.println(l6);
 	}
 }

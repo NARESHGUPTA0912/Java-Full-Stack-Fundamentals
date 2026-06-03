@@ -1,4 +1,4 @@
-package upcastingDowncasting.useCase;
+package javaOops.upcastingDowncasting.useCase;
 
 public class Service {
 	
@@ -27,9 +27,8 @@ public class Service {
 		}else {
 			System.out.println("Other type of Object");
 		}
-			
-		
 	}
+	
 	public static void fillFuel(Vehicle v) {
 		if(v instanceof Car c)
 			c.drive();

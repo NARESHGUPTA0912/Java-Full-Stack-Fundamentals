@@ -1,4 +1,4 @@
-package polymorphism.shapeBasedProject;
+package javaOops.shapeBasedProject;
 
 public class Square implements TwoDShape{
     private double side;

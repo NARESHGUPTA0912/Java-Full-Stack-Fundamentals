@@ -1,4 +1,4 @@
-package hasARelationship.aggregation;
+package javaOops.hasARelationship.aggregation;
 
 public class DieselEngine extends Engine{
 	

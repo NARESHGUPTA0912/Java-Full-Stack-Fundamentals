@@ -1,4 +1,4 @@
-package upcastingDowncasting;
+package javaOops.upcastingDowncasting;
 
 public class Driver {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package polymorphism.colorProject;
+package javaOops.polymorphism.colorProject;
 
 public class Driver {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
 /**
  * Spinning 3D Cube Animation in Java

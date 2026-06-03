@@ -1,4 +1,4 @@
-package abstraction.abstractclass;
+package javaOops.abstraction.abstractclass;
 
 public class ElectricCar extends Car{
 	int volt;
@@ -24,6 +24,7 @@ public class ElectricCar extends Car{
 	public void charge() {
 		System.out.println("charge electric Car");
 	}
+        @Override
 	public String getDetails() {
 	return super.getDetails()+"\tVolt capacity is: "+volt;
 	}

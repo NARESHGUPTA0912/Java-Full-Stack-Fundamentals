@@ -1,4 +1,4 @@
-package abstraction.abstractclass;
+package javaOops.abstraction.abstractclass;
 
 public class Driver {
 	public static void main(String[] args) {

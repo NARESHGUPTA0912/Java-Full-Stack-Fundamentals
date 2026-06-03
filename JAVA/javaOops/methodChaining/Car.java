@@ -1,4 +1,4 @@
-package methodChaining;
+package javaOops.methodChaining;
 
 public class Car {
     public Car start() {

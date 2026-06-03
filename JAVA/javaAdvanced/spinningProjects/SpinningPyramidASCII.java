@@ -1,4 +1,4 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package abstraction.interfacePrograms;
+package javaOops.abstraction.interfacePrograms;
 
 public interface Vehicle {
 	int x=12;

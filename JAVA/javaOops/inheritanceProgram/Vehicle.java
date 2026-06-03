@@ -1,4 +1,4 @@
-package inheritanceProgram;
+package javaOops.inheritanceProgram;
 
 public class Vehicle {
 	String name;

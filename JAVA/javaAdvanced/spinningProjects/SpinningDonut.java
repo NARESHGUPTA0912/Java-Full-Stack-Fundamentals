@@ -1,4 +1,4 @@
-package spinningProjects;
+package javaAdvanced.spinningProjects;
 
 /**
  * Spinning Donut Animation in Java

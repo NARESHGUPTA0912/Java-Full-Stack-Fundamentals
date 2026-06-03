@@ -1,4 +1,4 @@
-package polymorphism.colorProject;
+package javaOops.polymorphism.colorProject;
 
 class Green extends Color{
     int quantity;

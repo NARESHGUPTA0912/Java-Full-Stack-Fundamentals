@@ -1,4 +1,4 @@
-package polymorphism.vendingMachineProject;
+package javaOops.polymorphism.vendingMachineProject;
 
 public class Coffee extends Beverages{
     

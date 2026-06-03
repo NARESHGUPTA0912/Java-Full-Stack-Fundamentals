@@ -1,7 +1,7 @@
 // Encapsulation is the concept of hiding data(variables) within a class and allowing access
 // only through public methods (getters and setters)
 
-package EncapsulationExample;
+package javaOops.Encapsulation;
 
 class Bank {
     // private variables (data hiding)

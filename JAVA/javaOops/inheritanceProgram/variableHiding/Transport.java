@@ -1,4 +1,4 @@
-package inheritanceProgram.variableHiding;
+package javaOops.inheritanceProgram.variableHiding;
 
 public class Transport {
 	int x=10;

@@ -1,6 +1,6 @@
-package ploymorphism.methodOverloading;
+package javaOops.polymorphism.methodOverloading;
 
-public class Driver {
+public class CalDriver {
 	public static void main(String[] args) {
 		Calculator.add(12, 34.5);
 		Calculator.add(12, 40);

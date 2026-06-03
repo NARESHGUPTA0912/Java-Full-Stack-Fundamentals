@@ -1,4 +1,4 @@
-package Shapes;
+package javaBasics.Shapes;
 
 class Square{
     double side;

@@ -1,4 +1,4 @@
-package inheritanceProgram.variableHiding;
+package javaOops.inheritanceProgram.variableHiding;
 
 public class Car extends Vehicle{
 	int x=30;

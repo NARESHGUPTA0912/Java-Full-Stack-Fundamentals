@@ -1,4 +1,4 @@
-package ploymorphism.methodOverriding;
+package javaOops.polymorphism.methodOverriding;
 
 public class Circle extends TwoDShape{
 	

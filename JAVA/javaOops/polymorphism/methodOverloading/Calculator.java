@@ -1,4 +1,4 @@
-package ploymorphism.methodOverloading;
+package javaOops.polymorphism.methodOverloading;
 public class Calculator {
 	
 	public static void add(double a, double b) {

@@ -1,4 +1,4 @@
-package methodChaining;
+package javaOops.methodChaining;
 
 public interface Vehicle {
     Vehicle start();
