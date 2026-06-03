@@ -1,4 +1,4 @@
-package enums;
+package javaIntermediate.enums;
 
 public class Program3Driver implements Program3{
     public static void main(String[] args) {

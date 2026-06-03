@@ -1,4 +1,4 @@
-package enums;
+package javaIntermediate.enums;
 
 public interface Program3 {
     // fields are by default public static final

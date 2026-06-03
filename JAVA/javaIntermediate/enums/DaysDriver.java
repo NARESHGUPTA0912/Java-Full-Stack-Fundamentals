@@ -1,4 +1,4 @@
-package enums;
+package javaIntermediate.enums;
 
 public class DaysDriver {
     public static void main(String[] args) {

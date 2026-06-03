@@ -1,4 +1,4 @@
-package Structure;
+package javaBasics.Structure;
 // 1200 * 100/100
 // if calc profit like 30% = 1200 * (100+30)/100
 // if calc loss like 30% = 1200 * (100-30)/100

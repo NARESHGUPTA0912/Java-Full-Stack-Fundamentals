@@ -1,4 +1,4 @@
-package Structure;
+package javaBasics.Structure;
 
 class Vehicle {
 

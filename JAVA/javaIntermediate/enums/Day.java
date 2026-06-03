@@ -1,4 +1,4 @@
-package enums;
+package javaIntermediate.enums;
 
 public enum Day {
 
