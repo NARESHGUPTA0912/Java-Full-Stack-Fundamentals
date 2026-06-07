@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class LaptopDetails {
     static String brand = "HP";   // static variable
 

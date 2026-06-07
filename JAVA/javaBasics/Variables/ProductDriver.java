@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class ProductDetails {
     // static variable (common for all products)
     static String storeName = "Tech Store";

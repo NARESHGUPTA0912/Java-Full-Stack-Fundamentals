@@ -35,4 +35,8 @@ public enum Days {
     public String getLower() {
         return lower;
     }
+
+    public static void main(String[] args){
+        System.out.println("Hello WOrld");
+    }
 }

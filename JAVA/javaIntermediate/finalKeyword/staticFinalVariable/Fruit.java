@@ -1,4 +1,4 @@
-package finalKeyword.staticFinalVariable;
+package javaIntermediate.finalKeyword.staticFinalVariable;
 
 public interface Fruit {
     int price = 40;

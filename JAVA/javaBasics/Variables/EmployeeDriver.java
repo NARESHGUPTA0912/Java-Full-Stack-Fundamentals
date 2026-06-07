@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class Employee {
     // static variable
     static String companyName = "Qspider Testing & Software Solutions";

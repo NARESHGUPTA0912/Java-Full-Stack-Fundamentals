@@ -1,4 +1,4 @@
-package finalKeyword.immutableClass;
+package javaIntermediate.finalKeyword.immutableClass;
 
 public class Driver {
     public static void main(String[] args){

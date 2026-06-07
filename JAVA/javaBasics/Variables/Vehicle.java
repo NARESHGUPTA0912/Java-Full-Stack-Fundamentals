@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class Vehicle {
     // static variable (common for all vehicles)
     static String manufacturer = "Tata Motors";

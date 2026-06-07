@@ -1,4 +1,4 @@
-package finalKeyword.nonStaticFinalVariable;
+package javaIntermediate.finalKeyword.nonStaticFinalVariable;
 
 public class Car {
     String name;

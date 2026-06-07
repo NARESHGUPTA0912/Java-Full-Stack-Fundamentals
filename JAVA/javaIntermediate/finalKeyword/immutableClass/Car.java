@@ -1,4 +1,4 @@
-package finalKeyword.immutableClass;
+package javaIntermediate.finalKeyword.immutableClass;
 
 public final class Car {
     private final String name;

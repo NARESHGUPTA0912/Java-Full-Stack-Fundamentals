@@ -1,4 +1,4 @@
-package finalKeyword.finalClass;
+package javaIntermediate.finalKeyword.finalClass;
 
 public class Car {
     

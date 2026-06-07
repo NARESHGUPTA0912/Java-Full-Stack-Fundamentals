@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class UserDetails {
     // static variable
     static String appName = "ChatZone";

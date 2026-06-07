@@ -1,4 +1,4 @@
-package finalKeyword.finalMethod;
+package javaIntermediate.finalKeyword.finalMethod;
 
 public class Vehicle {
     public void start() {

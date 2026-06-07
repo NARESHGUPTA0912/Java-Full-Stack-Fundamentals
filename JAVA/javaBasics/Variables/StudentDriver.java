@@ -1,3 +1,5 @@
+package javaBasics.Variables;
+
 class StudentDetails {
     // static variable
     static String collegeName = "Aktu University";

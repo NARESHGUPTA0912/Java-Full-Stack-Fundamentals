@@ -3,6 +3,8 @@ package javaBasics.dataType;
 public class ProductDriver {
     public static void main(String[] args){
 		System.out.println("This is my JAVA-Program");
+
+		// Non- primitive data type
 		Product p1=new Product();
 		Product p2=new Product();
 		Product p3=new Product();
