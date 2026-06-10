@@ -1,4 +1,4 @@
-package generics.genericMethod;
+package javaIntermediate.generics.genericMethod;
 
 import java.util.List;
 

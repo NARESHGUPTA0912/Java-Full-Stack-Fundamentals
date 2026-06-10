@@ -1,4 +1,4 @@
-package generics.genericMethod;
+package javaIntermediate.generics.genericMethod;
 
 // Bounded Type Parameters
 // Upper Bound using extends

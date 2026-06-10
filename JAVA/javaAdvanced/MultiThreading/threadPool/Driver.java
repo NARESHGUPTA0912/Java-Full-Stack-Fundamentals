@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.threadPool;
+package javaAdvanced.MultiThreading.threadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

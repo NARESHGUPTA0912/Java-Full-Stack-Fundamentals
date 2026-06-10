@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.lockPrograms;
+package javaAdvanced.MultiThreading.raceCondition.lockPrograms;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -8,3 +8,8 @@ node_modules/
 *.pdf
 fonts/
 NightMarathon/
+out/
+.idea/
+*.log
+*.iml
+*.jar

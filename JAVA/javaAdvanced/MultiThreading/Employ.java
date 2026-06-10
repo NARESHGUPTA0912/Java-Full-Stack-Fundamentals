@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading;
+package javaAdvanced.MultiThreading;
 
 public class Employ extends Human implements Runnable{
 

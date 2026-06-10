@@ -1,5 +1,5 @@
-package accessModifiers.vehicles;
-import accessModifiers.tyre.CEAT;
+package javaIntermediate.accessModifiers.vehicles;
+import javaIntermediate.accessModifiers.tyre.CEAT;
 
 public class Car extends CEAT {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.atomicInteger;
+package javaAdvanced.MultiThreading.raceCondition.atomicInteger;
 
 public class Driver {
     public static void main(String[] args) throws InterruptedException {

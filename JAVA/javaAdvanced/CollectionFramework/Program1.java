@@ -1,10 +1,10 @@
-package javaadvanced.CollectionFramework;
+package javaAdvanced.CollectionFramework;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
 class Program1{
-    public static void main(String[] args) {
+    static void main(String[] args) {
         int[] a = {12,3,2,1,2,1};
 
         ArrayList<Integer> a1 = new ArrayList<>();

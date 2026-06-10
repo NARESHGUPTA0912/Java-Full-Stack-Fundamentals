@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.threadPool;
+package javaAdvanced.MultiThreading.threadPool;
 
 import java.util.concurrent.*;
 public class ThreadDemo {

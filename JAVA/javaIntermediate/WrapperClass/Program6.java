@@ -1,4 +1,4 @@
-package WrapperClass;
+package javaIntermediate.WrapperClass;
 
 public class Program6 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class Program6 {
         Integer s = null;
         Integer t = null;
         System.out.println(s==t);
-        System.out.println(s.toString());
+        System.out.println(s.toString());   // NullPointerException
         System.out.println(s.equals(t));
     }
 }

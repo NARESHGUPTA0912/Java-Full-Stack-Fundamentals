@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.threadLocal;
+package javaAdvanced.MultiThreading.raceCondition.threadLocal;
 
 public class Driver {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading;
+package javaAdvanced.MultiThreading;
 
 public class VehicleDriver {
     public static void main(String[] args) {

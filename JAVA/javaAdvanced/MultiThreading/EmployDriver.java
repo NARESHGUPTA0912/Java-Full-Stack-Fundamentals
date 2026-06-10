@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading;
+package javaAdvanced.MultiThreading;
 
 public class EmployDriver {
     public static void main(String[] args) throws InterruptedException  {

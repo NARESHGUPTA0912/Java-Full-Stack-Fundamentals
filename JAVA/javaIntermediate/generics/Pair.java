@@ -1,4 +1,4 @@
-package generics;
+package javaIntermediate.generics;
 
 // Multiple Type Parameters
 class Pair<K, V> {

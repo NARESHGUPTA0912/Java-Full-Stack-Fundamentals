@@ -1,4 +1,4 @@
-package accessModifiers.tyre;
+package javaIntermediate.accessModifiers.tyre;
 
 public class MRF {
     public static void main(String[] args) {
@@ -9,5 +9,6 @@ public class MRF {
 		CEAT.demo();
 		System.out.println("Z is: "+CEAT.z);
 		CEAT.start();
+		//CEAT.drive();// error
 	}
 }

@@ -1,4 +1,4 @@
-package javaadvanced.Java8Features;
+package javaAdvanced.Java8Features;
 
 import java.util.Arrays;
 import java.util.Comparator;

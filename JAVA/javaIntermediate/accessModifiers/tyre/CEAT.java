@@ -1,4 +1,4 @@
-package accessModifiers.tyre;
+package javaIntermediate.accessModifiers.tyre;
 
 public class CEAT {
     public static int x=10;

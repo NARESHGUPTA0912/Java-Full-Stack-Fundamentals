@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.threadPool;
+package javaAdvanced.MultiThreading.threadPool;
 
 public class Task extends Thread{
 	String name;

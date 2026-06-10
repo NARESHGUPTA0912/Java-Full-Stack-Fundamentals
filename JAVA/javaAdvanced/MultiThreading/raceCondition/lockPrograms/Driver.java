@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.lockPrograms;
+package javaAdvanced.MultiThreading.raceCondition.lockPrograms;
 
 public class Driver {
     public static void main(String[] args) throws InterruptedException {

@@ -1,4 +1,4 @@
-package generics.genericinterface;
+package javaIntermediate.generics.genericinterface;
 
 class StringPrinter implements Printer<String> {
 

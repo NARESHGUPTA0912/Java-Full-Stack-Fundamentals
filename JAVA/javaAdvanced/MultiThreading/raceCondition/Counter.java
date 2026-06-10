@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition;
+package javaAdvanced.MultiThreading.raceCondition;
 
 public class Counter {
     private volatile int count;

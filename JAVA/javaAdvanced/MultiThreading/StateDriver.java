@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading;
+package javaAdvanced.MultiThreading;
 
 import java.lang.Thread.State;
 import java.lang.reflect.Method;

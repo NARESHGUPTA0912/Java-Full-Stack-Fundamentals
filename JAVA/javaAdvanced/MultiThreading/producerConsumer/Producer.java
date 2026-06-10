@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.producerConsumer;
+package javaAdvanced.MultiThreading.producerConsumer;
 import java.util.concurrent.BlockingQueue;
 public class Producer extends Thread{
 	

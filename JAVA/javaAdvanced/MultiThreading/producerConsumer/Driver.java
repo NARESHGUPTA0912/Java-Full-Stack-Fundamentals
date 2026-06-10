@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.producerConsumer;
+package javaAdvanced.MultiThreading.producerConsumer;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;

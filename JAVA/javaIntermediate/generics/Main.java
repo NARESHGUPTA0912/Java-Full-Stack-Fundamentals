@@ -1,4 +1,4 @@
-package generics;
+package javaIntermediate.generics;
 
 class Box<T> {
 

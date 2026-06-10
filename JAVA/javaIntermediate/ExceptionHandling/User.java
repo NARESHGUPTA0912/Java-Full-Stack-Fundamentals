@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package javaIntermediate.ExceptionHandling;
 
 import java.util.Scanner;
 
@@ -35,7 +35,7 @@ public class User {
         }
     }
 
-    public String userRegistration() throws UnderAgeException() {
+    public String userRegistration() throws UnderAgeException{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter User Name: ");
         String name = sc.nextLine();

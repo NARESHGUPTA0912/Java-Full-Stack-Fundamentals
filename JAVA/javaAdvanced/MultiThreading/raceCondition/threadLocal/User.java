@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.threadLocal;
+package javaAdvanced.MultiThreading.raceCondition.threadLocal;
 
 public class User extends Thread{
 	String name;

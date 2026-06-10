@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.atomicInteger;
+package javaAdvanced.MultiThreading.raceCondition.atomicInteger;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

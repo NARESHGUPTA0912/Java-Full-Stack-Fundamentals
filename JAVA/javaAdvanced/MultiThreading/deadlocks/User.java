@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.deadlocks;
+package javaAdvanced.MultiThreading.deadlocks;
 
 public class User extends Thread{
 	String name;

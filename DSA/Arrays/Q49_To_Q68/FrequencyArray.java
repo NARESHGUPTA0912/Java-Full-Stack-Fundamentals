@@ -21,7 +21,6 @@ public class FrequencyArray {
                     visited[j] = true;
                 }
             }
-
             System.out.println(arr[i] + " -> " + count);
         }
     }

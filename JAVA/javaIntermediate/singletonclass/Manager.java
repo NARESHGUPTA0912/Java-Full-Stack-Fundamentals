@@ -1,4 +1,4 @@
-package singletonclass;
+package javaIntermediate.singletonclass;
 
 public class Manager {
     

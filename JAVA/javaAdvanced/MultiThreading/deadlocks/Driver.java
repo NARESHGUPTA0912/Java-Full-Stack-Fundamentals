@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.deadlocks;
+package javaAdvanced.MultiThreading.deadlocks;
 
 public class Driver {
     public static void main(String[] args) throws InterruptedException {

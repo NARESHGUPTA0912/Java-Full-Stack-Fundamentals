@@ -1,4 +1,4 @@
-package javaadvanced.MultiThreading.raceCondition.threadLocal;
+package javaAdvanced.MultiThreading.raceCondition.threadLocal;
 
 public class Counter {
     private final ThreadLocal<Integer> count=ThreadLocal.withInitial(()->0);
