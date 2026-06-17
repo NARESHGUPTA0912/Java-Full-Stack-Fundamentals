@@ -80,12 +80,14 @@ Ex -> String s1 = "Mo"+"han"; // in SCP
     - It is Not synchronized.
     - It is thread-safe.
     - Slow in Performance
+    - String have not any initial capacity.
 - StringBuilder
     - mutable
     - it is since java 1.5
     - It is Not synchronized.
     - It is not thread-safe.
     - Very fast in Performance
+    - StringBuilder have 16 char (32 byte) of initial capacity and at the moment when sb hit 17 char then capacity increased to (16*2+2)
 
 - StringBuffer
     - mutable
@@ -93,6 +95,7 @@ Ex -> String s1 = "Mo"+"han"; // in SCP
     - It is synchronized.
     - It is thread-safe
     - Very slow in Performance
+    - StringBuffer have 16 char (32 byte) of initial capacity and at the moment when sb hit 17 char then capacity increased to (16*2+2)
 
 # Why String is Immutable ?
 - String objects are shared from SCP. Sharing feature with multiple reference can be achieved only if String will be Immutable.

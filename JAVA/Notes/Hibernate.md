@@ -75,7 +75,7 @@ Q) What is EntityManagerFactory ?
 
 Q) What is EntityManager ?
 - It is an main Interface of JPA which is used to perform database operations(CRUD) on Entity classes.
-- It represents a persistence context which is a working area where all entities are managed.
+- It represents a Persistence Context which is a working area where all entities are managed.
 - It has multiple In-Built method such as: 
       1) persist(Object entity): It will generate Insert query against Entity class.
       2) merge(Object entity): It will generate Update query for existing Object.
@@ -122,6 +122,10 @@ H/W : Project -> Hibernate Student CRUD Operation.
 @Id, @Column, @Entity, @Table, @CreationTimeStamp, @UpdateTimeStamp, @Transient(transient),  
 Q) D/F B/W Native Query vs JPQL ?
 Note: JPQL is DATA Independent Query language which have one syntax but communicate with any database.
+// insert after drop table from db
+// table name can be anything, column name can be anything, 
+// if we write jpql then it cannot matter bcz it is database independent not database specific
+// if we use Transient then data can not go in database, it prevents to serialize.
 
 # Hibernate RelationShip Mapping:
 - HRM are based on three main concepts:
@@ -158,7 +162,10 @@ Note: JPQL is DATA Independent Query language which have one syntax but communic
       5) CascadeType.DETACH
       6) CascadeType.ALL
 Ex -> If we want to persist Passport automatically with Person then we have to write Cascading in the top of Passport Reference variable
-
+Note : 1) In some scenario, we have not entiy class table and not any inbuilt methods so those scenarios we use Natice query to perform operations on db.
+2) Jpql only communicate with entity class tables bcz its a object oriented query language.
+3) NoResultException
+4) We can check lombok code are genereated or not from outline setion of eclipse.
 # Difference between JPQL vs SQL ?
 
 <!-- 17/2/26 -->
@@ -201,6 +208,8 @@ Note: mvn clean install
 - Without orphanRemoval a child class only break the relationship and child records still remain same in the table.
 - But with orphanRemoval removing a child from the collection, delete its from the database
 
+<!-- 19/2/26 -->
+# 3) ManyToOne Unidirectional Mapping 
 <!-- 20/2/26 -->
 # 4) ManyToMany Uni-Directional Mapping: Association between more than one object where multiple object connected with multiple object is called Many-To-Many Releationship mapping.
 For Ex ->
