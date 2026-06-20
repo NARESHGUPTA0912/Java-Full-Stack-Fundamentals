@@ -128,3 +128,7 @@ class Node{
         this.val = val;
     }
 }
+<!-- Filter: | Not Solved, | Not Med-Hard, | is Sorting, Binary Search, Matrix, Prefix Sum, Two Pointers, Sliding Window, Suffix Array, Counting, bucket, radix sort, Quick select. -->
+<!-- Work To Do -->
+<!-- Arrays Easy questions from Leetcode (1 t0 1100)-->
+170, 252, 283, 303, 349, 350, 422, 455, 463, 506, 561, 566, 594, 628, 643, 645, 661, 704, 733, 744, 747, 766, 821, 832, 867, 883, 888, 892, 905, 922, 942, 976, 977, 999, 1005, 1030, 1051, 1064, 1065, 1086, 1089, 1099 .
