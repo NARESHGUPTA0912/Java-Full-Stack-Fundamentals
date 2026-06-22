@@ -178,6 +178,7 @@ public class ConditionalOperator {
     }
 
     public static void main(String[] args) {
-        Q15(2000);
+        Q25(20, 19, 21);
+
     }
 }

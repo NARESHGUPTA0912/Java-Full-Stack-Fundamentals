@@ -55,9 +55,10 @@ public class NumberOperationService {
     }
 
     public static boolean doYouWantToContinue(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Do you want to continue? (Yes/No)");
-        String input = sc.nextLine();
-        return input.equalsIgnoreCase("yes");
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Do you want to continue? (Yes/No)");
+            String input = sc.nextLine();
+            return input.equalsIgnoreCase("yes");
+        }
     }
 }

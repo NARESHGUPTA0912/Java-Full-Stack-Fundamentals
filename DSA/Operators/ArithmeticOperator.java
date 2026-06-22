@@ -98,12 +98,13 @@ public class ArithmeticOperator {
 
     public static void Q10(){
         int n=123;
-        int sum = (n%10)+((n/10)%10)+((n/100)%10);
+        int sum = (n%10)+((n/10)%10)+(n/100);
         System.out.println(sum);
     }
 
+
     public static void Q11(){
-        int x = 5 / 2 * 2;
+        int x = 5 / 2 * 2;      // calculate L t0 R
         System.out.println(x); // 4
     }
 
@@ -134,6 +135,9 @@ public class ArithmeticOperator {
     }
 
     public static void main(String[] args) {
-        Q2();
+        int n =  123;
+        int sum = n%10 + (n/10)%10 + n/100;
+        System.out.println(sum);
+        Q12();
     }
 }
