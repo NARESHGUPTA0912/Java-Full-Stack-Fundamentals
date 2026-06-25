@@ -2,7 +2,7 @@ package ControlFlowStatement;
 
 import java.util.Scanner;
 
-class TriangleSides {
+class ValidTriangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter three sides of a triangle: ");

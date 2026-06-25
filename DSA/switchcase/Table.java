@@ -4,8 +4,8 @@ class Table {
     
     public static void generateTable(int n){
         for(int i=1; i<=10; i++){
-            System.out.println(n+"+"+i+"= "+n*i);
-        }
+            System.out.print(n+" X "+i+" = "+n*i+"\t");
+        }System.out.println();
     }
 
     public static void generateTableUptoNNumber(int n){
@@ -13,5 +13,9 @@ class Table {
             generateTable(i);
         }
         System.out.println("--------------------");
+    }
+
+    public static void main(String[] args) {
+        generateTableUptoNNumber(25);
     }
 }

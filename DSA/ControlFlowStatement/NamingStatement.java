@@ -32,7 +32,7 @@ class NamingStatement{
             for (int j = 1; j < limit; j++) {
                 inner:
                 for (int k = 1; k < limit; k++) {
-                    if(k == 2) break outer;
+                    if(k == 2) break ;
                     System.out.println(i + "-"  + j + "-" + k);
                 }
                 System.out.println("------------------------------");
