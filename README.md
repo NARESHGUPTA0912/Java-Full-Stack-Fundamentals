@@ -1,4 +1,4 @@
-# 📚 Qspider Fundamentals
+# 📚 Java Full Stack Fundamentals
 
 This repository contains my structured practice and learning from Qspider classes.
 It includes fundamentals of programming, frontend technologies, and problem-solving concepts.
@@ -15,7 +15,7 @@ It includes fundamentals of programming, frontend technologies, and problem-solv
 
 ### ☕ Java
 
-* Core Java (OOP, Collections, Exception Handling)
+* Core Java (OOP, Collections, Exception Handling, MultiThreading, Java 8 Features etc)
 * Advanced Java Basics
 
 ### 🧠 Programming & Data Structures & Algorithms
@@ -29,7 +29,6 @@ It includes fundamentals of programming, frontend technologies, and problem-solv
 * Strings
 * Linked List
 * Stack & Queue
-* Recursion
 
 ---
 
@@ -41,9 +40,10 @@ qspider-fundamentals/
  ├── CSS/
  ├── JavaScript/
  ├── JAVA/
- │    ├── OOP/
- │    ├── Collections/
- │    ├── Polymorphism/
+ │    ├── javaBasics/
+ │    ├── javaOops/
+ |    ├── javaIntermediate/
+ │    ├── javaAdvanced/
  │
  ├── DSA/
  │    ├── Arrays/
