@@ -1,4 +1,4 @@
-package javaOops.abstraction.interfacePrograms.basics;
+package javaOops.abstraction.interfacePrograms.Basics;
 
 // var. by default public static final
 // non-static var. not allowed because constructor not allowed and static and non-static blocks also not allowed

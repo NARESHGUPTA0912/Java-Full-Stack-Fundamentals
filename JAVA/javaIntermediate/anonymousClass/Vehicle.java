@@ -1,4 +1,4 @@
-package anonymousClass;
+package javaIntermediate.anonymousClass;
 
 abstract class Vehicle{
     public void test(){

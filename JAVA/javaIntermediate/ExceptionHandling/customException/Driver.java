@@ -1,4 +1,4 @@
-package exceptionHandling.customException;
+package javaIntermediate.exceptionHandling.customException;
 import java.util.Scanner;
 public class Driver {
 	public static void main(String[] args)  {

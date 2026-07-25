@@ -1,4 +1,4 @@
-package anonymousClass;
+package javaIntermediate.anonymousClass;
 public class Driver {
     public static void main(String[] args) {
         Vehicle bus = new Vehicle() {

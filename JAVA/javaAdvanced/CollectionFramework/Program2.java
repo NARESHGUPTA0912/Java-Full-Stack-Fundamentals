@@ -1,6 +1,8 @@
-package javaadvanced.CollectionFramework;
+package javaAdvanced.CollectionFramework;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 class Program2{
     public static void main(String[] args) {

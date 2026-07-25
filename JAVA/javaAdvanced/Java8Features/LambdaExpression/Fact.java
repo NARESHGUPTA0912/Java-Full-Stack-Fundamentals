@@ -1,4 +1,4 @@
-package javaadvanced.Java8Features.LambdaExpression;
+package javaAdvanced.Java8Features.LambdaExpression;
 
 @FunctionalInterface
 public interface Fact {

@@ -1,4 +1,4 @@
-package javaadvanced.Java8Features;
+package javaAdvanced.Java_8_Features;
 
 import java.util.*;
 

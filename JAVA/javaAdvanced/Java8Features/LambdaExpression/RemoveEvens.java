@@ -1,4 +1,4 @@
-package javaadvanced.Java8Features.LambdaExpression;
+package javaAdvanced.Java8Features.LambdaExpression;
 
 import java.util.ArrayList;
 import java.util.Arrays;

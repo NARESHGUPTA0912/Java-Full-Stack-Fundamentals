@@ -1,4 +1,4 @@
-package javaadvanced.StreamAPI;
+package javaAdvanced.StreamAPI;
 
 @FunctionalInterface
 interface Calculate {

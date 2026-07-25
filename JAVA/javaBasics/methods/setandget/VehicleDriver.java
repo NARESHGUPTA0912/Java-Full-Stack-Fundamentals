@@ -1,4 +1,4 @@
-package javaBasics.oop.setandget;
+package javaBasics.methods.setandget;
 
 class VehicleDriver{
 	public static void main(String[] args){

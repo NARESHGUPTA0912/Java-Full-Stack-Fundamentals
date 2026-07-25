@@ -5,7 +5,7 @@ class Program1{
 		
 		byte a=45;
 		byte b=30;
-		byte c=(a+b); //Compilation Error
-		System.out.println("Sum is: "+c);
+		//byte c=(a+b); //Compilation Error
+		//System.out.println("Sum is: "+c);
 	}
 }

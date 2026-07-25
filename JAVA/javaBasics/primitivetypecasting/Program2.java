@@ -5,7 +5,7 @@ class Program2{
 		
 		short a=45;
 		short b=100;
-		short c=a+b;//Compilation Error
-		System.out.println("Sum is: "+c);
+	//	short c=a+b;//Compilation Error
+	//	System.out.println("Sum is: "+c);
 	}
 }

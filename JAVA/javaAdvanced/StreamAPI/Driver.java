@@ -1,4 +1,4 @@
-package javaAdvance.StreamAPI;
+package javaAdvanced.StreamAPI;
 
 public class Driver {
     public static void main(String[] args) {

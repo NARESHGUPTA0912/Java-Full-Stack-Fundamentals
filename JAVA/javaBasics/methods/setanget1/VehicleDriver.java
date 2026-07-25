@@ -1,4 +1,4 @@
-package javaBasics.oop.setanget1;
+package javaBasics.methods.setanget1;
 
 
 class VehicleDriver {

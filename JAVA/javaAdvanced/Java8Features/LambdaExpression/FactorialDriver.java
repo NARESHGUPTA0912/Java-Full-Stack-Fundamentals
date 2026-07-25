@@ -1,4 +1,4 @@
-package javaadvanced.Java8Features.LambdaExpression;
+package javaAdvanced.Java8Features.LambdaExpression;
 
 public class FactorialDriver {
     public static void main(String[] args) {

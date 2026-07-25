@@ -1,4 +1,4 @@
-package exceptionHandling;
+package javaIntermediate.exceptionHandling;
 import java.io.*;
 public class Program9 {
 	public static void main(String[] args) {

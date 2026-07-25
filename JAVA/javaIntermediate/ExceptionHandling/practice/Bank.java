@@ -1,4 +1,4 @@
-package javaIntermediate.practice;
+package javaIntermediate.exceptionHandling.practice;
 
 public class Bank {
 
@@ -11,7 +11,7 @@ public class Bank {
     public String withdraw(double amount) throws InsufficientFundsException {
         double balance = cust.getBalance();
         if(amount > balance) {
-            throw new InsufficientFundsException("Insufficient Withdrawal Amount");
+            //throw new InsufficientFundsException("Insufficient Withdrawal Amount");
         } else {
             System.out.println("Total Amount: " + balance);
             System.out.println("Withdrawal Amount: " + amount);

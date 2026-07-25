@@ -1,4 +1,4 @@
-package ExceptionHandling;
+package javaIntermediate.exceptionHandling;
 
 public class NoSuchEmployeeFoundException extends Exception{
 

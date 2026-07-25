@@ -1,4 +1,4 @@
-package javaOops.abstraction.interfacePrograms.basics;
+package javaOops.abstraction.interfacePrograms.Basics;
 
 public class Test {
     public static void main(String[] args) {

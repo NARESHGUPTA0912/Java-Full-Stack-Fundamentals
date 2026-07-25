@@ -1,4 +1,4 @@
-package javaIntermediate.practice;
+package javaIntermediate.exceptionHandling.practice;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -1,4 +1,4 @@
-package javaIntermediate.practice;
+package javaIntermediate.exceptionHandling.practice;
 
 public class InsufficientFundsException extends Exception {
 

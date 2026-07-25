@@ -1,4 +1,4 @@
-package javaIntermediate.practice;
+package javaIntermediate.exceptionHandling.practice;
 
 public class Main {
     public static void main(String[] args) {

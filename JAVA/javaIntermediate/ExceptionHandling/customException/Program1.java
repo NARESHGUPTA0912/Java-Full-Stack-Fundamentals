@@ -1,4 +1,4 @@
-package exceptionHandling.customException;
+package javaIntermediate.exceptionHandling.customException;
 
 public class Program1 {
 	public static void main(String[] args) {

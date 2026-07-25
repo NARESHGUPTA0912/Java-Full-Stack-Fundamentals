@@ -1,4 +1,4 @@
-package javaIntermediate.ExceptionHandling;
+package javaIntermediate.exceptionHandling;
 
 import java.util.Scanner;
 

@@ -1,10 +1,10 @@
-package ExceptionHandling;
+package javaIntermediate.exceptionHandling;
 
 public class Main {
     public static void main(String[] args) {
-        Employee e = new Employee("Naresh", "E001", 17);
+        User e = new User("Naresh", "E001", 17,989898989);
         try {
-            e.checkAge(e.getAge());
+            e.checkAge(e.getUserAge());
         } catch (UnderAgeException ex) {
             System.out.println(ex.getMessage());
         }
