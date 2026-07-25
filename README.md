@@ -1,4 +1,4 @@
-# 📚 Qspider Fundamentals
+# 📚 Java Full Stack Fundamentals
 
 This repository contains my structured practice and learning from Qspider classes.
 It includes fundamentals of programming, frontend technologies, and problem-solving concepts.
@@ -15,7 +15,7 @@ It includes fundamentals of programming, frontend technologies, and problem-solv
 
 ### ☕ Java
 
-* Core Java (OOP, Collections, Exception Handling)
+* Core Java (OOP, Collections, Exception Handling, MultiThreading, Java 8 Features etc)
 * Advanced Java Basics
 
 ### 🧠 Programming & Data Structures & Algorithms
@@ -29,7 +29,6 @@ It includes fundamentals of programming, frontend technologies, and problem-solv
 * Strings
 * Linked List
 * Stack & Queue
-* Recursion
 
 ---
 
@@ -41,9 +40,10 @@ qspider-fundamentals/
  ├── CSS/
  ├── JavaScript/
  ├── JAVA/
- │    ├── OOP/
- │    ├── Collections/
- │    ├── Polymorphism/
+ │    ├── javaBasics/
+ │    ├── javaOops/
+ |    ├── javaIntermediate/
+ │    ├── javaAdvanced/
  │
  ├── DSA/
  │    ├── Arrays/
@@ -75,7 +75,7 @@ qspider-fundamentals/
 
 ## 🛠️ How to Use
 
-1. Clone the repository:
+1. Clone the repository after taking permission from author:
 
    ```bash
    git clone https://github.com/NARESHGUPTA0912/qspider-fundamentals.git
@@ -99,6 +99,13 @@ qspider-fundamentals/
 ## 👨‍💻 Author
 
 **Naresh Gupta**
+
+## License & Copyright
+
+© 2026 Naresh Gupta. All rights reserved.
+
+This repository and all its contents are proprietary. You are welcome to view the code online for educational or review purposes. However, downloading, cloning, copying, distributing, modifying, or using this code in any other project without explicit written permission from the author is strictly prohibited.
+Use the code with caution.
 
 ---
 
