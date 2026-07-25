@@ -14,7 +14,7 @@ Q) Features of JS
 3. Use Case : Use async for independent scripts (analytics, ads) and defer for scripts that depend on the DOM or each other.
 
 <!-- Day-3 -->
-- History of Node JS
+- History of JS and Node JS
 
 <!-- Day 4 -->
 
@@ -205,7 +205,7 @@ _JS Engine_
     3. Hoisting is Javascript's default behavior of moving variables and function declarations to the top of their scope during the compilation(Variable) phase, before code execution.
     Explanation:- This means you can use functions before they're declared in your code, and variables declared with var are hoisted but initilized as undefined until their actual assigment is reached. However, let and const declarations are hoisted but remain in a
     "temporal dead zone" and cannot be accessed before their declaration line.
-# Temporal Dead Zone(TZD):-
+# Temporal Dead Zone(TDZ):-
     1. It is the time frame between variable declaration and variable initilization in this time frame we can not access a variable.
     2. Variable declared with let and const belongs to Temporal Dead Zone.
     3. TDZ starts when the scope (block/function) is entered.
@@ -306,7 +306,7 @@ _JS Engine_
         1. The  function which is passed to another function as an argument.
         2. The function which is returned by another function.
 
-# Closure:- A closure is a function that has access to to variables from its outer(enclosing) function's scope, even after the outer function has finished execution. This happens because the inner function maintains a reference to the outer function's variables. Closures are created every time a function is crreated in javascript, allowing for data privacy and maintaining state.
+# Closure:- A closure is a function that has access to variables from its outer(enclosing) function's scope, even after the outer function has finished execution. This happens because the inner function maintains a reference to the outer function's variables. Closures are created every time a function is crreated in javascript, allowing for data privacy and maintaining state.
 
     # DrawBacks of closure:-
         1.High memory consumption:- everytime you call a function a new fresh closure is created.

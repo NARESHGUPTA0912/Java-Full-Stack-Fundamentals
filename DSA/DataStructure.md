@@ -51,7 +51,7 @@ Ex -> "abcd";
   # c) String creation by using char sequence:
      - 
 
-4) String Constant Pool(SCP): 
+4) String Constant Pool(SCP):
 - It is a special memory area inside heap area which is used to create String objects using String Literals.
 - SCP can have only unique type Strings.
 - In SCP One string object can have multiple reference, in case similar objects are created multiple times.

@@ -1,5 +1,5 @@
 <!-- 09/02/26 -->
-# *HIBERNATE (JPA)*
+*HIBERNATE (JPA)*
 # What is Hibernate ?
 - In Software development, hibernate is a java ORM (Object Relational Mapping) framework.
 - It helps java programmers or programs to talk with databases without writing tons(multiple/several) of SQL Query. Beacuse it will generate 80% query automatically and rest off we have to write.
@@ -199,7 +199,14 @@ class States{
 Q) What is Logging Framework?
 Q) What is Log4J ?
 Q) What is SLF4J ?
+- slf4j provides some messages like these 4: 1) warning   2) Error     3) Debugging     4) Normal message
+- normally used for print logging messages on files but wecan print also on console.
+- it provides various methods.
+- mvn clean install (in local terminal)
 Q) OrphanRemoval vs Cascade.REMOVAL
+
+# Cascade.REMOVAL -> if we perform operation on parent then it will automatically perform on their child.
+# orphanRemoval -> if we set the child null then delete country then the child is orphaned and association will break , so in this case we have to use orphanremoval to delete the orphaned child automatically when association break.
 
 Note: mvn clean install
 
@@ -292,6 +299,10 @@ i) FetchType.LAZY       ii) FetchType.EAGER
 - Default Fetch Types of relationship mapping:
 - OneToOne and ManyToOne default FetchType is EAGER and OneToMany, ManyToMany default FetchType is Lazy.
 
+- FetchType.Eager is safe to use and it is default in OneToOne and ManyToOne. It meeans when we fetch a owning side then other side only return 1 data which is safe.
+- But, FetchType.Lazy is not safe and it is default type of ManyToMany and OneToMany. It means when we fetch owning side then non-owning side(which is many side) return multiple (many)data which may crash server (if data are more than server capacity) so it is safe to change this fetch type to FetchType.Eager. 
+Ex -> Let suppose TCS a company and we want to fetch their GST no and it have 500K employees then there all employees data are coming which loads the server and maybe it crashes out so using FetchType.Eager only return the owning side data and remove immediately other entity.
+
 i) FetchType.LAZY: It is a default FetchType of OneToMany and ManyToMany. It loss related Entity data from database to Java code when we manually accessing.
 ii) FetchType.EAGER: OneToOne and ManyToOne default FetchType is EAGER. It loss the related Entity immediately alongwith the parent Entity from db to Java APP.
 
@@ -326,4 +337,3 @@ class Subject{
 - lombok: @Data, @Setter, @Getter, @EqualsAndHashcode, @ToString, @AllArgConstructor, @NoArgConstructor, @RequiredArgConstructor .
 - Hibernate JPA: @Entity,  @Table,  @Id,  @Column,  @JoinColumn,   @JoinTable,   @Transient,  @createtimestamp,   @UpdateTimeStamp,  @GeneratedValue,  @OneToOne
 - Composite-key-annotation: @IdClass,   @EmbeddedId,    @Embeddable
-
