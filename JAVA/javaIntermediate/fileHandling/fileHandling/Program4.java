@@ -3,11 +3,10 @@ package fileHandling;
 import java.io.FileWriter;
 import java.io.File;
 import java.util.Scanner;
-public class Program4 {
+class Program4 {
 	public static void main(String[] args) throws Exception {
 		String path="f:\\user.txt";
-		
-		
+
 		try ( 	Scanner sc1=new Scanner(System.in);
 				FileWriter f1=new FileWriter(path, true) ){
 				
@@ -21,8 +20,5 @@ public class Program4 {
 			System.out.println(e.getMessage());
 		}
 		System.out.println("Program Ends!");
-		
 	}
-
-
 }

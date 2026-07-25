@@ -179,6 +179,5 @@ public class ConditionalOperator {
 
     public static void main(String[] args) {
         Q25(20, 19, 21);
-
     }
 }

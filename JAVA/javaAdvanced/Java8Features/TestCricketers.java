@@ -29,7 +29,7 @@ public class TestCricketers {
             new Cricketers("Sachin", 1479, 143.00),
             new Cricketers("Abhishek", 1584, 179.00)
 
-            System.out.println(list);
+           // System.out.println(list);
 
         );
     }
